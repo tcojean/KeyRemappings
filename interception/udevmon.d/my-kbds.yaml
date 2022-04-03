@@ -1,0 +1,9 @@
+- JOB: "/usr/local/bin/intercept -g $DEVNODE | /usr/local/bin/dual-function-keys -c /etc/interception/dual-function-keys/my_kbd.yaml | uinput -d $DEVNODE"
+  DEVICE:
+    NAME: "AT Translated Set 2 keyboard"
+- JOB: "/usr/local/bin/intercept -g $DEVNODE | /usr/local/bin/dual-function-keys -c /etc/interception/dual-function-keys/my_kbd.yaml | uinput -d $DEVNODE"
+  DEVICE:
+    NAME: "Fujitsu Fujitsu Keyboard"
+- JOB: "/usr/local/bin/intercept -g $DEVNODE | /usr/local/bin/dual-function-keys -c /etc/interception/dual-function-keys/my_kbd.yaml | uinput -d $DEVNODE"
+  DEVICE:
+    NAME: "USB Keyboard"
